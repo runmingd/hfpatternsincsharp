@@ -7,6 +7,7 @@ namespace Command
 {
     public class NoCommand : ICommand
     {
+        int i = 0;
         #region ICommand Members
 
         public void Execute()
